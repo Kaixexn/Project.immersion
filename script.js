@@ -4,12 +4,14 @@
    Firebase Console → Project settings → General → Your apps
    ========================================================= */
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAstnlHgJ3nzvKaBS1cWHSf2zOVbgmWwpM",
+  authDomain: "workimmersion.firebaseapp.com",
+  databaseURL: "https://workimmersion-default-rtdb.firebaseio.com",
+  projectId: "workimmersion",
+  storageBucket: "workimmersion.firebasestorage.app",
+  messagingSenderId: "415875212716",
+  appId: "1:415875212716:web:5d80f03a67892f43928609",
+  measurementId: "G-3B18VTED92"
 };
 
 firebase.initializeApp(firebaseConfig);
